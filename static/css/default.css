@@ -1,0 +1,86 @@
+/* estilos por defecto  */
+html,
+body
+{
+	height: 100%;
+	width: 100%;
+}
+
+html
+{
+	color: #5B5B5B;
+	overflow: hidden;
+}
+
+body
+{
+  background-color: #F2F0F0;
+	background-repeat: no-repeat;
+	background-position: center top;
+	-moz-background-size: auto 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%;           /* Opera 9.5 */
+	-webkit-background-size: 100% 100%;           /* Safari 3.0 */
+	background-size: 100% 100%;  	
+  font-family: Verdana,Geneva,Kalimati,sans-serif;
+  font-size: 12px;
+	line-height: 1.5;
+}
+
+a 
+{
+  color: #47748E;
+  outline:0 none;
+	text-decoration: none;
+}
+
+a:hover
+{
+  color: #2D4A5B;
+	text-decoration: underline;;	
+}
+
+h1,
+h2
+{
+  color: #333;
+	font-weight: normal;
+}
+
+h1
+{
+	margin: 0 0 10px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+h1 a
+{
+ color: #222;
+}
+
+h2
+{
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+h2,
+h2 a
+{
+	color: #2E90CA;
+}
+
+p
+{
+  margin: 0 0 10px;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+li
+{
+	list-style: none;
+}

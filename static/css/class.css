@@ -1,0 +1,107 @@
+/* clases */
+.hide
+{
+  display:none;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+/* Clases para cargas las imagenes de fondo */
+.img_1
+{
+	background-image: url(../images/photo_1.jpg);
+}
+
+.img_2
+{
+	background-image: url(../images/photo_2.jpg);
+}
+
+.img_3
+{
+	background-image: url(../images/photo_3.jpg);
+}
+
+.img_4
+{
+	background-image: url(../images/photo_4.jpg);
+}
+
+/* slide */
+.photo{
+	background-color: white;
+	padding: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;		
+  width: 860px;
+	height: 350px;
+}
+
+.details
+{
+	display:block;
+}
+
+.photo_inner
+{
+	float: right;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;			
+	width:360px;
+}
+
+.detail_photo
+{
+	float: left;
+	padding:0 20px 0 0;
+	width: 480px;
+}
+
+#prev_btn.inactive,
+#next_btn.inactive,
+#prev_btn.inactive:hover,
+#next_btn.inactive:hover
+{
+	background-color: #ccc;
+	cursor:default;
+}
+
+/* style green */
+.green
+{
+	background-color: #EDFAD8;
+}
+
+.green .title_photo,
+.green .detail_photo
+{
+	color: #111;
+}
+
+/* style pink */
+.pink
+{
+	background-color: #FCEDE9;
+}
+
+.pink .title_photo,
+.pink .detail_photo
+{
+	color: #222;
+}
+
+/* style dark */
+.dark
+{
+	background-color: #111;
+}
+
+.dark .title_photo,
+.dark .detail_photo
+{
+	color: white;
+}
