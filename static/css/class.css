@@ -1,7 +1,7 @@
 /* clases */
 .hide
 {
-  display:none;
+	display:none;
 	filter:alpha(opacity=0);
 	-moz-opacity:0;
 	-khtml-opacity: 0;
@@ -36,8 +36,16 @@
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;		
-  width: 860px;
+  	width: 860px;
 	height: 350px;
+	-moz-box-shadow: 3px 3px 3px #333;
+	-webkit-box-shadow: 3px 3px 3px #333;
+	box-shadow: 3px 3px 3px #333;	
+}
+
+.photo:hover{
+	-moz-transform:rotate(1deg) scale(1.02);
+	-webkit-transform:rotate(1deg) scale(1.02);
 }
 
 .details
@@ -68,6 +76,9 @@
 {
 	background-color: #ccc;
 	cursor:default;
+	background-image: -moz-linear-gradient(top, #ccc, #efefef);
+	background-image: -webkit-gradient(linear, left top,left bottom, from(#ccc), to(#efefef));
+	background-image: linear-gradient(top, #ccc, #efefef);		
 }
 
 /* style green */

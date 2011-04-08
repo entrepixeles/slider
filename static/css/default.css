@@ -49,8 +49,9 @@ h2
 h1
 {
 	margin: 0 0 10px;
-  font-size: 32px;
-  line-height: 1.2;
+	font-size: 32px;
+	line-height: 1.2;
+	text-shadow: #ccc 0.1em 0.1em 0.2em;	
 }
 
 h1 a
